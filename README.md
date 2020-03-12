@@ -12,8 +12,11 @@ Do look at [this tutorial](https://dev.to/javascripterika/deploy-a-react-app-as-
 ### Technologies used
 
 [Create React App](https://github.com/facebook/create-react-app)
+
 [Sass](https://sass-lang.com/)
+
 [React Bootstrap](https://react-bootstrap.netlify.com/)
+
 [React Icons](https://react-icons.netlify.com/#/)
 
 ### Approach
@@ -52,6 +55,9 @@ There are guides depending if you want to publish as a [project page](https://gi
 ### TO-DOs
 
 [x] write README.md
+
 [ ] animate the portfolio page to make projects slide around
+
 [ ] add more description to my projects
+
 [ ] flip-card to show project description & links in mobile view
