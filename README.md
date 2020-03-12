@@ -6,6 +6,7 @@ Built after I graduated from GA. Neomorphism seems to be the new thing in town.
 ### Credits
 
 I used [Unsplash](https://unsplash.com/) for my images and would like to thank the following artist, in no order of merit, for their works: Clem Onojeghuo, Wes Hicks
+
 Do look at [this tutorial](https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka) if you'd like to know how to create-(a)-react-app as a GitHub user page.
 
 ### Technologies used
