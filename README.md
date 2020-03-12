@@ -1,82 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Version 3
 
-## Available Scripts
+Built after I graduated from GA. Neomorphism seems to be the new thing in town.
+<!-- The previous 2 versions are archived [here]() & [here](). -->
 
-In the project directory, you can run:
+### Credits
 
-### `yarn start`
+I used [Unsplash](https://unsplash.com/) for my images and would like to thank the following artist, in no order of merit, for their works: Clem Onojeghuo, Wes Hicks
+Do look at [this tutorial](https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka) if you'd like to know how to create-(a)-react-app as a GitHub user page.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Technologies used
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Create React App](https://github.com/facebook/create-react-app)
+[Sass](https://sass-lang.com/)
+[React Bootstrap](https://react-bootstrap.netlify.com/)
+[React Icons](https://react-icons.netlify.com/#/)
 
-### `yarn test`
+### Approach
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Took this on with the intention to practise using React Hooks, CSS animations and Sass. Used state instead of React Router to render the components in the main area. I had fun breaking up all my code into small components that didn't exceed a hundred lines each, made editing and bug fixing such a breeze. Most of the styling is done by .scss stylesheets and housed in the same folder as the components. Wanted to do most of the CSS from scratch but in the end, I found that I still relied a lot on Bootstrap for their preset layout tools.
 
-### `yarn build`
+### Installation Instructions
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+My first time writing installation instructions
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To run development mode, clone repo from source branch.
+> Note that in order to publish your production build on user pages, the compiled code has to the master branch.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+npm start
+```
 
-### `yarn eject`
+That's it.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+There are guides depending if you want to publish as a [project page](https://github.com/gitname/react-gh-pages) or as a [user page](https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Color Palette
+  * #006AD7
+  * #9AD9EA
+  * #21277B
+  * #FFFFFF
+  * #5F83B1
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Neumorphic
 
-## Learn More
+* Minimalistic
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### TO-DOs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-# TODO: 
-
-### In MyNav
-1. change the links to icons
-2. Add some style to the nav brand
-3. adjust the height
-
-### Colors
-* #006AD7
-* #9AD9EA
-* #21277B
-* #FFFFFF
-* #5F83B1
+[x] write README.md
+[ ] animate the portfolio page to make projects slide around
+[ ] add more description to my projects
+[ ] flip-card to show project description & links in mobile view
