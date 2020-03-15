@@ -13,3 +13,10 @@
         height: 150px!important;
     }
 }
+
+.side-image {
+    cursor: pointer;
+    &:hover {
+        opacity: .6;
+    }
+}
