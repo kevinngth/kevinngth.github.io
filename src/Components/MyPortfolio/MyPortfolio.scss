@@ -1,3 +1,8 @@
+@media (max-width: 767.98px) {
+    .description {
+        display: none!important;
+    }
+}
 .slide {
     &-mid {
         max-width: 400px;
@@ -5,7 +10,8 @@
     &-top {
         opacity: .5;
         max-width: 400px;
-        transform: translateY(50px) scale(.7);
+        position: absolute;
+        transform: translateY(-65%) scale(.7);
         &:hover {
             opacity: 1;
         }
@@ -13,7 +19,8 @@
     &-bottom {
         opacity: .5;
         max-width: 400px;
-        transform: translateY(-50px) scale(.7);
+        position: absolute;
+        transform: translateY(65%) scale(.7);
         &:hover {
             opacity: 1;
         }

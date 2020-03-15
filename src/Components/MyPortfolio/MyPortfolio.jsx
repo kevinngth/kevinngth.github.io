@@ -31,13 +31,19 @@ function MyPortfolio() {
                     <Image src={portfolio[0].img_src} fluid />
                 </Row>
                 <Row className="slide-mid">
+                    <div className="d-md-none" style={{ zIndex: "3", transform: "translate(-100%,61px)"}}>
+                        <ButtonGroup size='sm' vertical="true" aria-label="Basic example">
+                            <Button href={portfolio[1].app_link} variant='info'>App</Button>
+                            <Button href={portfolio[1].repo_link} variant='info'>Repo</Button>
+                        </ButtonGroup>
+                    </div>
                     <Image style={{ zIndex: "2" }} src={portfolio[1].img_src} fluid/>
                 </Row>
                 <Row className="slide-bottom" onClick={() => slideProjects("downward")}>
                     <Image src={portfolio[2].img_src} fluid />
                 </Row>
             </Col>
-            <Col className="d-flex justify-content-center align-items-center">
+            <Col className="d-md-flex justify-content-center align-items-center description">
                 <div>
                     <h3>{portfolio[1].title}</h3>
                     <p>{portfolio[1].text}</p>
