@@ -58,6 +58,4 @@ There are guides depending if you want to publish as a [project page](https://gi
 
 [ ] animate the portfolio page to make projects slide around
 
-[ ] add more description to my projects
-
 [ ] flip-card to show project description & links in mobile view
