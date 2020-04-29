@@ -42,11 +42,11 @@ There are guides depending if you want to publish as a [project page](https://gi
 ### Design
 
 * Color Palette
-  * #006AD7
-  * #9AD9EA
-  * #21277B
-  * #FFFFFF
-  * #5F83B1
+  * `#006AD7`
+  * `#9AD9EA`
+  * `#21277B`
+  * `#FFFFFF`
+  * `#5F83B1`
 
 * Neumorphic
 
