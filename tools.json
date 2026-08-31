@@ -1,0 +1,15 @@
+{
+  "_comment": "Single source of truth. Add a tool = add an object to the array below, then push. Order here is the order on the page. Tags are free-form; the tag filter is generated from whatever you use, so you never edit the HTML.",
+
+  "links": [{ "label": "GitHub", "href": "https://github.com/kevinngth" }],
+
+  "tools": [
+    {
+      "name": "cmfas",
+      "desc": "A quiz app to help you revise for CMFAS papers.",
+      "href": "/cmfas/",
+      "tags": ["finance", "quiz"],
+      "meta": "v3.0"
+    }
+  ]
+}

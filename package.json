@@ -1,0 +1,12 @@
+{
+  "name": "homepage",
+  "private": true,
+  "description": "Personal homepage — the entry point for everything else.",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
