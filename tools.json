@@ -5,7 +5,7 @@
 
   "tools": [
     {
-      "name": "cmfas",
+      "name": "CMFAS",
       "desc": "A quiz app to help you revise for CMFAS papers.",
       "href": "/cmfas/",
       "tags": ["finance", "quiz"],
