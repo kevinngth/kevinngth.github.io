@@ -10,6 +10,13 @@
       "href": "/cmfas/",
       "tags": ["finance", "quiz"],
       "meta": "v3.0"
+    },
+    {
+      "name": "八字",
+      "desc": "Calculate your 八字 with basic readings.",
+      "href": "/bazi/",
+      "tags": ["divination"],
+      "meta": "v2.0"
     }
   ]
 }
