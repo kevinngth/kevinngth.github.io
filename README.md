@@ -73,14 +73,15 @@ every tool. The filter is layered on top: it only ever hides rows that are alrea
 there, and the search field stays hidden until JS confirms it can drive it.
 
 Each row carries a precomputed lowercase `data-text` haystack (name + description
-+ tags + version). Filtering is a substring test against that string, so it stays
-instant well past a hundred tools without any index or dependency.
 
-- Type to filter. Every word must match somewhere in the row (AND, not OR).
-- Click tags to narrow further. Multiple tags AND together.
-- `/` or `⌘K` focuses the field, `↑`/`↓` walk the results, `Enter` opens the
+- tags + version). Filtering is a substring test against that string, so it stays
+  instant well past a hundred tools without any index or dependency.
+
+* Type to filter. Every word must match somewhere in the row (AND, not OR).
+* Click tags to narrow further. Multiple tags AND together.
+* `/` or `⌘K` focuses the field, `↑`/`↓` walk the results, `Enter` opens the
   highlighted one, `Esc` clears.
-- Filters are mirrored into the URL, so `?q=cli` or `?t=web,design` is a
+* Filters are mirrored into the URL, so `?q=cli` or `?t=web,design` is a
   shareable link to a filtered view.
 
 If the list ever gets long enough that scrolling is the problem rather than
@@ -106,29 +107,8 @@ so "System" stays a first-class option and is the default.
   progressive-enhancement rule as the filter.
 
 **Editing the palettes:** light tokens live in `:root`, dark tokens in
-`:root[data-theme="dark"]`. Write dark values *once* in that block — `build.mjs`
+`:root[data-theme="dark"]`. Write dark values _once_ in that block — `build.mjs`
 mirrors it into a `prefers-color-scheme` media query at build time so the two can
 never drift apart. Editing `src/template.html` and opening it directly (without
 building) is fine for the explicit choices, but System-dark won't apply until you
 run the build.
-
-## Things worth knowing
-
-**No personal information is on this page by design.** No name, no email, no
-location. The only identifying string is the GitHub URL in `tools.json` →
-`links`, which is the same username already in the site's domain. Delete that
-entry if you want even that gone.
-
-**Fonts come from Google Fonts.** That's a third-party request from every
-visitor's browser. To make the page fully self-contained, download the Fraunces
-and DM Sans woff2 files into `src/fonts/`, replace the `<link>` in
-`src/template.html` with `@font-face` rules, and have `build.mjs` copy the
-directory into `dist/`.
-
-**Repo name becomes the URL path.** A tool in the repo `tabsnap` is served at
-`<username>.github.io/tabsnap/`. Renaming the repo breaks every link you've
-shared, so name them deliberately.
-
-**A custom domain on this repo cascades.** Point one at this site and every
-project site under the same account moves to `yourdomain.com/<repo>/`
-automatically, with no per-repo DNS work.
