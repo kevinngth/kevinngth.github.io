@@ -12,6 +12,13 @@
       "meta": "v3.0"
     },
     {
+      "name": "Gardner Test",
+      "desc": "Self-Assessment based on Howard Gardner's Theory of Multiple Intelligences.",
+      "href": "/gardner-multi-intel/",
+      "tags": ["self-help", "quiz"],
+      "meta": "v1.0"
+    },
+    {
       "name": "八字",
       "desc": "Calculate your 八字 with basic readings.",
       "href": "/bazi/",
